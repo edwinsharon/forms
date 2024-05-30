@@ -1,0 +1,109 @@
+.main{
+    background-color: rebeccapurple;
+    
+}
+.sub{
+    background-color: #ffffff;
+    width: 65%;
+    margin: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    border-radius: 2%;
+}
+.button{
+ background-color: rgb(245, 16, 8);  
+ margin-top: 3%; 
+ border: none;
+ box-shadow: grey;
+ border-radius: 4%;
+ width: 95%;
+}
+.email{
+    width: 95%;
+}
+.sub2{
+    background-image:url(images/desktop-wallpaper-neymar-jr-10-soccer-blue-psg-neymar-jr-football-thumbnail.jpg) ;
+    border-radius: 5%;
+    height: 100%;
+}
+
+.sub3{
+    background-color: white;
+    width: 28%;
+    height: 24%;
+    margin-left: 80%;
+    margin-top: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75%;
+    border-radius: 4%;
+    margin-right: 10%;
+    
+}
+.sub4{
+    border: orangered;
+    border-radius: 80px;
+    padding: 0px 18px;
+    border-style: solid;
+    padding-top: 14%;
+}
+input[type="checkbox"]{
+    appearance:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px; 
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    outline: none
+}
+input[type="checkbox"]:checked
+{
+    background-color: #f34009; 
+    color: white;
+}
+input[type="text"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px; 
+    height: 15px;
+    border-radius: 3%;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+}
+@media (max-width: 600px) and (min-width:100px)
+{  
+    .sub{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0%;
+    justify-content: center;
+    height: 100%;
+    }
+    .main{
+        background-color: white;
+    }
+    .sub1{
+        order:2;
+        margin-top: 2%;
+    }
+    .sub2{
+        order:1;
+    }
+    
+
+}
+@media (max-width:1150px) and (min-width:600px) 
+{
+    .txar{
+        margin-left: 5%;
+        margin-top: -10%;
+    }
+}
