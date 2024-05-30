@@ -1,3 +1,1 @@
-new Promise((resolve, reject) => {
-    
-})
+parseIntfkebnfdbalkafnblkfeblkefbmbdfl
